@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="hello-world-project-for-docker:ear exploded">
+    <output-path>$PROJECT_DIR$/target/hello-world-project-for-docker-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>hello-world-project-for-docker</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hello-world-project-for-docker/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/hello-world-project-for-docker-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
